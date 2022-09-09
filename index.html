@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/estilito.css">
+    <link rel="icon" href="imagenes/icono_v3.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Avionzones</title>
+</head>
+
+<body class="escondido">
+
+  
+
+  <div class="centrado-carga" id="descargar">
+    <div class="lds-hourglass"></div>  
+  </div>  
+  <header class="header">
+    <div class="titulo">
+      <a href="index.html>"><img  src="imagenes/Logo_V1.png" alt="" class="logo" ></a>
+        
+        <h2 class="slogan">Trayendo alegría a cada viaje</h2>
+    </div>
+    <img src="imagenes/bx-menu-alt-left.svg" alt="" class="menu">
+      <nav class="menu_navegacion">
+        <a class="borde" href="inicio_sesion.html">Iniciar sesión</a>
+          <a class="borde" href="#Hoteles">Hoteles</a>
+          <a class="borde" href="#Tipos-transportes">T. Transporte</a>
+          <a class="borde" href="#Actividades">Actividades</a>
+        <a class="borde" href="#Paquetes">Paquetes</a>
+      </nav>
+  </header>
+
+  <div>
+    <form class="intermedio">
+
+      <div class="preguntas">
+        <div class="pregunta_1">
+          <h1 class="jodido">¿A donde viajas?</h1>
+        </div>
+        <div class="pregunta_1">
+          <h1 class="jodido">¿Cuándo viajas?</h1>
+        </div>
+        <div class="pregunta_1_1">
+          <h1 class="jodido">¿Cuántos viajan?</h1>
+        </div>
+
+        <input class="enviar" type="button" onclick="alert('¡¡OH NO!! NO HAY BOLETOS 🗿😊')" value="ENVIAR"> 
+      </div>
+
+      <div class="respuestas">
+        <div class="respuesta_1">
+          <select class="separar">
+            <option selected>Desde</option>
+            <option>Alemania</option>
+            <option>Armenia</option>
+            <option>Bolivia</option>
+            <option>Colombia</option>
+            <option>Francia</option>
+            <option>Estados Unidos</option>
+          </select>
+
+          <select class="separar">
+            <option selected>Hasta</option>
+            <option>Avecedo</option>
+            <option>Bilbao</option>
+            <option>Baraya</option>
+            <option>Venecia</option>
+            <option>Capo Alegre</option>
+            <option>Paicol</option>
+          </select>
+
+          <input type="date" class="separar_2" name="birthday">
+          <input type="time" class="separar_2_2" name="appt">
+          
+          <input type="number" class="separar_3" name="quantity" min="1" max="10">
+      </div>
+
+    </form>
+  </div>
+
+    <main>
+      <div class="carrusel">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="viaje_uno.html"><img src="imagenes/DISNEY.png" class="d-block w-100" alt="..."></a>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>MAGIC KINGDOM</h5>
+                  <p>Expora tierras de encanto infinito, donde tus fantasias se convierten en realidad</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a href="viaje_dos.html"><img src="imagenes/Francia.jpg" class="d-block w-100" alt="..."></a>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>La Tour Eiffel</h5>
+                  <p>Objeto de discordia, codicia y fascinación, la Torre Eiffel no deja indiferente a nadie. Rica con una historia llena de cambios</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a href="viaje_tres.html"><img src="imagenes/Venecia.jpg" class="d-block w-100" alt="..."></a>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Venecia</h5>
+                  <p>Venezia è una città incantevole che lancia un incantesimo inebriante sui suoi visitatori.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </div>  
+        <div class="quienes-somos">
+            <h1 class="clase"><b>¿Quiénes Somos?</b></h1>
+            <p class="texto">En Viajes AvioncitosRapidos tienes todo lo que necesitas para tus vacaciones en un solo lugar. Viajes AvioncitosRapidos Colombia te permite comprar tus tiquetes aéreos, reservar tu estadía en un hotel y armar tu viaje de manera online. 
+              También te ofrecemos la atención personalizada de profesionales expertos en viajes y turismo que te pueden ayudar a encontrar las mejores ofertas para vivir experiencias inolvidables junto a Viajes AvioncitosRapidos.
+              <br>
+              <br>
+              Si quieres hablar con un asesor, puedes visitarnos presencialmente en las sucursales de Viajes AvioncitosRapidos, agendar una videollamada o llamar al call center y reservar.
+              Te acompañamos en todos los momentos de tus vacaciones, con soporte en cada paso, antes, durante y después de tu viaje. Queremos que tengas la mejor experiencia de principio a fin y que tus vacaciones sean inolvidables.
+              ¡Compra ya mismo todo lo que necesitas para tus vacaciones soñadas, con las mejores ofertas y financiación y todos los medios de pago en Viajes AvioncitosRapidos!</p>
+        </div>
+    </main>
+
+
+    <footer id="contacto">
+
+        <div class="contacto">
+            <h2 class="marca"><b>Contactos</b></h2>
+          <div class="textito">
+            <p><b>Correo de Contacto:</b> avioncitosrapidos@gmail.com</p>
+          <div class="textito_dos">
+            <p><b>Telefono:</b> 3206798069</p>
+          </div>  
+          </div>  
+        </div>
+        <div class="contenedor footer-content">
+          <div class="social-media">
+              <a href="https://es-la.facebook.com/" class="social-media-icon">
+                  <i class='bx bxl-facebook'></i>
+              </a>
+
+              <a href="https://twitter.com/?lang=es" class="social-media-icon">
+                  <i class='bx bxl-twitter'></i>
+              </a>
+
+              <a href="https://www.instagram.com/?hl=es" class="social-media-icon">
+                  <i class='bx bxl-instagram'></i>
+              </a>
+          </div>
+      </div>
+      <div class="line"></div>
+    </footer>
+
+    
+
+</body>
+
+<script src="js/menu.js"></script>
+    <script src="js/lightbox.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</html>
